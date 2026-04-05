@@ -37,7 +37,7 @@ This default approach is useful for two reasons. First, it lowers the barrier to
 
 For paid tiers, the app can also work with a shared Master Database. That shared file allows more than one device or user to work with the same asset set while still keeping a local working copy on each device.
 
-**Typical starting paths**
+**Typical starting paths**  
 -  Single user or trial use: begin with a Local Database and start entering assets immediately.
 -  Team or shared environment: create or connect to a Master Database so multiple devices can work from the same central data source.
 -  Existing setup: connect to an already-created Master Database and create a Local Database from it on the current device.
@@ -49,14 +49,14 @@ In short, Local Mode is the easiest way to begin, while synchronised use is the 
 
 The main screen displays the asset list. Each entry is intended to show enough information for the user to identify an item quickly without opening the full record.
 
-Depending on the selected list view, each asset entry shows:
+Depending on the selected list view, each asset entry shows:  
 -  Title
 -  Asset ID
 -  Current Location and Home Location
 -  Status
 -  Optional image
 
-The top area of the main screen provides the core daily actions:
+The top area of the main screen provides the core daily actions:  
 -  Scan Label - scans a QR code and opens the linked asset record.
 -  Add Item - creates a new asset record.
 -  Print Label - generates labels for the current filtered view.
@@ -74,18 +74,18 @@ At a minimum, a new record requires an Asset ID and a Title. The Asset ID is aut
 
 **Fields currently available**
 
-**Mandatory fields:**
+**Mandatory fields:**  
 -  Asset ID (auto-generated)
 -  Title
 
-**Strongly recommended fields:**
+**Strongly recommended fields:**  
 -  Description
 -  Home Location
 -  Current Location
 -  Status
 -  Tags
 
-**Additional optional fields:**
+**Additional optional fields:**  
 -  Image
 -  Serial Number
 -  Part Number
@@ -104,16 +104,14 @@ Selecting an asset from the main page opens the item details page, where the rec
 
 Locations and Tags are managed centrally because they form part of the structure of the database, not just a single record.
 
-**Locations**
-
-There are two location types in the app:
+**Locations**  
+There are two location types in the app:  
 -  Home Location - where the asset normally belongs.
 -  Current Location - where the asset is currently located.
 
 This distinction is important, by comparing Home and Current location, the app can help identify items that are out of place, on loan, dispatched, or under repair.
 
-**Tags**
-
+**Tags**  
 Tags are used for categorisation. They help answer questions such as what kind of asset an item is, what area it belongs to, or how it should be grouped for reporting and filtering.
 
 The user can add, rename, deactivate, or delete Tags and Locations through the management tools. Deletion is restricted when an entry is still in use, which helps preserve data integrity and prevents accidental breakage of existing records.
@@ -123,7 +121,7 @@ Tags and Locations can also be created directly from the drop-down menus on the 
 
 ## 6. **QR Codes and Labels**
 
-A QR code is automatically generated for each asset record. QR codes are included in printed labels, and scanning a label will open Asset Curator and load the relevant asset details.
+A QR code is automatically generated for each asset record. QR codes are included in printed labels, and scanning a label will open Asset Curator and load the relevant asset details.  
 -  QR codes are generated from the asset record.
 -  Labels can be printed from within the app.
 -  Scanning a label opens the linked asset record.
@@ -139,7 +137,7 @@ Users can also filter the list by Tag or Location, making searching easier, espe
 
 The app currently supports filtering rather than full sorting tools, this is function will be available in future versions.
 
-**List views**
+**List views**  
 The asset list can be viewed with or without images. The no-image list is useful when the priority is fitting more assets on screen, while the image list is useful where for visual identification.
 
 
@@ -153,7 +151,7 @@ Asset Curator's model allows each device to work independently and then synchron
 
 To reduce the chance of overwriting newer data with older data and causing data conflicts, the system uses timestamps and device identifiers when merging updates.
 
-**Common synchronisation actions**
+**Common synchronisation actions**  
 -  Create a Master Database from an existing Local Database. Generally used when setting up a common dataset for the first time.
 -  Connect a new device to an existing Master Database, used for creating a Local Database from a Master Database.
 -  Synchronise between Local and Master databases.
@@ -165,7 +163,7 @@ These functions are available through Settings. In practice, this means a single
 
 The Maintenance Module allows a user to track servicing requirements for an asset. This moves the app from simple asset storage into lifecycle management.
 
-Maintenance can be tracked using the following trigger types:
+Maintenance can be tracked using the following trigger types:  
 -  Dates
 -  Distance
 -  Usage cycles
@@ -181,7 +179,7 @@ Open the asset's record from the main list, then select Maintenance. From there,
 
 The Reporting Module provides quick operational visibility into the current state of the database. It is designed to help users spot patterns and issues without having to open each asset one by one.
 
-Current reporting focuses on summaries such as:
+Current reporting focuses on summaries such as:  
 -  Asset status distribution
 -  Maintenance status, including overdue and upcoming servicing
 -  Location summaries
@@ -193,7 +191,7 @@ Good summaries help a user identify what needs attention, where equipment is con
 
 Settings is where the user configures app behaviour and maintains the supporting structures around the database.
 
-The Settings area currently includes:
+The Settings area currently includes:  
 -  Upgrade access
 -  Label format selection, including printer paper or label size
 -  Tag management tools
@@ -205,8 +203,7 @@ The Settings area currently includes:
 
 Asset Curator is structured so that users can begin with the core functions and then move to paid tiers if they need more scale or more advanced capability.
 
-**Free version**
-
+**Free version**  
 -  Limited number of assets
 -  Core asset management functions
 -  Dashboard access
@@ -222,7 +219,7 @@ This approach is designed to allow users to trial the app and determine whether 
 
 ## 13. **Troubleshooting**
 
-If issues occur, start with the simple checks first. Many problems in asset systems come from configuration, permissions, or database selection rather than from the asset record itself.
+If issues occur, start with the simple checks first. Many problems in asset systems come from configuration, permissions, or database selection rather than from the asset record itself.  
 -  Restart the app.
 -  Check that camera and storage-related permissions are enabled where needed.
 -  If using shared mode, confirm that the correct database has been selected.
