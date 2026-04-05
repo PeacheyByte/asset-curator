@@ -211,7 +211,7 @@ Asset Curator is structured so that users can begin with the core functions and 
 -  Core asset management functions
 -  Dashboard access
 
-**Paid versions**  n
+**Paid versions**  
 -  Unlimited assets
 -  Synchronisation functions
 -  Advanced reporting (Advanced tier)
