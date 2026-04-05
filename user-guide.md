@@ -206,10 +206,12 @@ The Settings area currently includes:
 Asset Curator is structured so that users can begin with the core functions and then move to paid tiers if they need more scale or more advanced capability.
 
 **Free version**
+
 -  Limited number of assets
 -  Core asset management functions
 -  Dashboard access
-**Paid versions**
+
+**Paid versions**  n
 -  Unlimited assets
 -  Synchronisation functions
 -  Advanced reporting (Advanced tier)
