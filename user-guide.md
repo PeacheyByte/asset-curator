@@ -16,55 +16,76 @@ permalink: /user-guide/
 
 Asset Curator is an asset management application designed to track, manage, and analyse physical assets using QR codes, structured data, maintenance tracking, and reporting.
 
+It is built to answer practical questions:
+- What is this item?
+- Where should it be?
+- Where is it now?
+- Is it serviceable?
+- Is it due for maintenance?
+
+The system works best when records are consistent and up to date.
+
+---
+
+## 📄 Download Full Manual
+
+👉 [Download PDF User Manual](../assets/Asset_Curator_User_Manual.pdf)
+
+---
+
 ## Getting Started
 
-When you first open the app, it operates in **Local Mode** by default.
+When first opened, the app runs in **Local Mode**, storing all data on the device.
 
 ### Free Version
 
-- You can immediately begin adding and managing assets using a **local database stored on your device**
-- Sync features are **not available** in the free tier
+- Local database only
+- Immediate use without setup
+- No sync features
 
 ### Paid Versions
 
-Once upgraded, additional options become available:
+- Connect to a **Master Database**
+- Create shared databases
+- Sync across devices
 
-- Connect to an existing **Master Database**
-- Create a **Shared Master Database**
-- Create a local database linked to a master database
-- Sync between local and master databases
+This allows multi-user environments without rebuilding data.
 
-This allows multiple users and devices to work with the same shared asset dataset.
+---
 
 ## Main Screen
 
-The main screen displays all assets with:
+Displays all assets with:
 
-- Title and Asset ID
-- Current Location and Home Location
-- Status
-- Optional image
+- Title and Asset ID  
+- Current and Home Location  
+- Status  
+- Optional image  
 
-### Main actions
+### Actions
 
-- Scan Label
-- Add Item
-- Print Label
+- Scan Label  
+- Add Item  
+- Print Label  
 
-### Main tools
+### Tools
 
-- Search by title, ID, or tags
+- Search (Title-based)
 - Filter by Tag
 - Filter by Location
-- Switch between List and List - No Images view
+- Toggle image / no-image view
+
+Filtering becomes important as asset volume grows.
+
+---
 
 ## Adding and Managing Assets
 
-Each asset can include:
+Each asset is a structured record.
 
 ### Core fields
 
-- Asset ID
+- Asset ID (auto-generated)
 - Title
 - Description
 - Home Location
@@ -75,151 +96,192 @@ Each asset can include:
 ### Optional fields
 
 - Image
-- Serial Number
-- Part Number
-- Bought Price
-- Date Bought
-- Sale Price
-- Sold Price
-- Sold Date
-- Record Last Update
+- Serial / Part numbers
+- Pricing + purchase/sale data
+- Dates and record tracking
 
-Assets can be edited and updated at any time.
+Asset ID is critical — it ties together:
+- QR codes
+- Labels
+- Scanning behaviour
+
+---
 
 ## Status Options
 
-The app currently supports these core status values:
+- Serviceable  
+- Unserviceable  
+- On Loan  
+- Missing  
+- Disposed  
 
-- Serviceable
-- Unserviceable
-- On Loan
-- Missing
-- Disposed
+These define operational state — not just storage.
+
+---
 
 ## Locations and Tags
 
-Locations and tags are managed centrally.
-
 ### Locations
 
-Locations define where assets belong and where they are currently stored.
+- **Home Location** = where it belongs  
+- **Current Location** = where it is  
+
+This allows tracking of:
+- misplaced items
+- loans
+- movement
 
 ### Tags
 
-Tags are used for grouping, filtering, and reporting.
+Used for:
+- grouping
+- filtering
+- reporting
 
 You can:
+- Add
+- Rename
+- Deactivate
+- Delete (if unused)
 
-- Add new entries
-- Rename entries
-- Deactivate entries
-- Delete entries if they are not in use
-
-Locations and tags can also be added directly from the item edit screen.
+---
 
 ## QR Codes and Labels
 
-Each asset includes a QR code.
+Each asset generates a QR code.
 
 You can:
+- Print labels
+- Scan to open asset instantly
+- Use Avery / Dymo formats
 
-- Print labels for assets
-- Scan a label to open the matching asset
-- Use supported Avery and Dymo label formats
+Purpose:
+- eliminates manual searching
+- reduces identification errors
+
+---
 
 ## Dashboard
 
-The dashboard provides quick visual summaries, including:
+Quick summary view:
 
 - Correct Location
 - Out of Place
 - Serviceable
 - Missing
-- Asset Summary totals
+- Total assets
+
+Designed for fast situational awareness.
+
+---
 
 ## Reporting Module
 
-The reporting module provides operational summaries and deeper reporting insights.
+Provides deeper insight:
 
-Examples include:
+- Totals by status
+- Totals by location
+- Location/status matrix
+- Misplaced assets
+- Coverage metrics
 
-- Total items
-- Total items per status
-- Total items per location
-- Total items per location per status
-- Total misplaced items
-- Empty locations
-- Status coverage
-- Spread indicators
+Advanced tier expands this further.
 
-Advanced reporting expands this further with broader summary and trend-oriented views.
+---
 
 ## Maintenance Module
 
-The maintenance module supports service tracking using:
+Tracks servicing using:
 
 - Date
 - Hours
 - Cycles
 - Distance
 
-### Maintenance features
+### Features
 
-- Create a maintenance profile for an asset
-- Set up routine services such as R1, R2, and R3
-- Track current counters
-- View overdue items
-- View upcoming maintenance
-- Use maintenance reporting and forecasting
+- Maintenance profiles (R1, R2, R3)
+- Counter tracking
+- Overdue detection
+- Forecasting
 
-If maintenance has not yet been set up for an item, the app will show that clearly and provide setup options.
+Purpose:
+Turn asset records into **lifecycle management tools**
+
+---
+
+## Database Synchronisation
+
+### Local Mode
+- Device-only storage
+
+### Master Database
+- Shared dataset
+- Multi-device sync
+
+Each device keeps a local copy and syncs changes.
+
+Conflict handling uses:
+- timestamps
+- device identifiers
+
+---
 
 ## Settings
 
-The Settings page includes:
+Includes:
 
-- Upgrade information
+- Upgrade info
 - Label size selection
-- Open PDF after printing
-- Manage tags
-- Manage locations
-- Choose Master Folder
-- Create Master Database
-- Create Local Database
-- Sync Databases
+- Open PDF after print
+- Tag management
+- Location management
+- Database tools
+
+Settings define how the app fits your workflow.
+
+---
 
 ## Pricing Overview
 
 ### Free
-
-- Limited number of items
-- Local database only
-- Dashboard access
-- No sync
+- Limited assets
+- Local only
+- Dashboard
 
 ### Premium
-
-- Unlimited items
-- Sync features
+- Unlimited assets
+- Sync
 - Basic reporting
 
 ### Advanced
-
-- Includes reporting module improvements and advanced reporting
+- Expanded reporting
 
 ### Pro
+- Maintenance + full reporting
 
-- Includes full reporting and maintenance functionality
+---
 
 ## Troubleshooting
 
-If something is not working as expected:
+If something isn’t working:
 
-- Restart the app
-- Confirm required permissions are enabled
-- Verify the correct database setup is being used
-- Check that sync features are available under your plan
-- Confirm maintenance has been configured for the selected asset if using maintenance screens
+- Restart app
+- Check permissions
+- Confirm correct database
+- Verify plan supports feature
+- Check maintenance setup
 
 ---
-{% include footer.html %}
+
+## Final Notes
+
+The system is only as good as the data:
+
+- Keep locations updated
+- Use clear titles
+- Apply tags consistently
+- Label assets early
+
+Done properly, Asset Curator becomes:
+a working system — not just a list.
