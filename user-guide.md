@@ -75,25 +75,25 @@ At a minimum, a new record requires an Asset ID and a Title. The Asset ID is aut
 **Fields currently available**
 
 Mandatory fields:
--  Asset ID (auto-generated)
--  Title
+ -  Asset ID (auto-generated)
+ -  Title
 
 Strongly recommended fields:
--  Description
--  Home Location
--  Current Location
--  Status
--  Tags
+ -  Description
+ -  Home Location
+ -  Current Location
+ -  Status
+ -  Tags
 
 Additional optional fields:
--  Image
--  Serial Number
-•  Part Number
-•  Bought Price
-•  Date Bought
-•  Sale Price
-•  Sold Price
-•  Record Last Update
+ -  Image
+ -  Serial Number
+ •  Part Number
+ •  Bought Price
+ •  Date Bought
+ •  Sale Price
+ •  Sold Price
+ •  Record Last Update
 
 Although some fields are optional, filling them in improves the usefulness of the database. For example, locations make the record operationally useful, tags improve filtering, and serial or part numbers make the system more valuable when dealing with repairs, spares, or warranty questions.
 
