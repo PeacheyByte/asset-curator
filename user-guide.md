@@ -107,8 +107,8 @@ Locations and Tags are managed centrally because they form part of the structure
 **Locations**
 
 There are two location types in the app:
-•  Home Location - where the asset normally belongs.
-•  Current Location - where the asset is currently located.
+-  Home Location - where the asset normally belongs.
+-  Current Location - where the asset is currently located.
 
 This distinction is important, by comparing Home and Current location, the app can help identify items that are out of place, on loan, dispatched, or under repair.
 
@@ -124,9 +124,9 @@ Tags and Locations can also be created directly from the drop-down menus on the 
 ## 6. **QR Codes and Labels**
 
 A QR code is automatically generated for each asset record. QR codes are included in printed labels, and scanning a label will open Asset Curator and load the relevant asset details.
-•  QR codes are generated from the asset record.
-•  Labels can be printed from within the app.
-•  Scanning a label opens the linked asset record.
+-  QR codes are generated from the asset record.
+-  Labels can be printed from within the app.
+-  Scanning a label opens the linked asset record.
 
 If the app is not installed on a device, the the code will to direct the user to Google Play to install Asset Curator.
 
@@ -154,9 +154,9 @@ Asset Curator's model allows each device to work independently and then synchron
 To reduce the chance of overwriting newer data with older data and causing data conflicts, the system uses timestamps and device identifiers when merging updates.
 
 **Common synchronisation actions**
-•  Create a Master Database from an existing Local Database. Generally used when setting up a common dataset for the first time.
-•  Connect a new device to an existing Master Database, used for creating a Local Database from a Master Database.
-•  Synchronise between Local and Master databases.
+-  Create a Master Database from an existing Local Database. Generally used when setting up a common dataset for the first time.
+-  Connect a new device to an existing Master Database, used for creating a Local Database from a Master Database.
+-  Synchronise between Local and Master databases.
 
 These functions are available through Settings. In practice, this means a single-user setup can grow into a multi-user system later without needing to rebuild the database from scratch.
 
@@ -166,10 +166,10 @@ These functions are available through Settings. In practice, this means a single
 The Maintenance Module allows a user to track servicing requirements for an asset. This moves the app from simple asset storage into lifecycle management.
 
 Maintenance can be tracked using the following trigger types:
-•  Dates
-•  Distance
-•  Usage cycles
-•  Hours
+-  Dates
+-  Distance
+-  Usage cycles
+-  Hours
 
 Up to three routine servicing schedules can be programmed for an asset, in addition to ad-hoc servicing or repairs. The app can then identify maintenance as upcoming or overdue based on the thresholds that have been configured.
 
@@ -182,8 +182,8 @@ Open the asset's record from the main list, then select Maintenance. From there,
 The Reporting Module provides quick operational visibility into the current state of the database. It is designed to help users spot patterns and issues without having to open each asset one by one.
 
 Current reporting focuses on summaries such as:
-•  Asset status distribution
-•  Maintenance status, including overdue and upcoming servicing
+-  Asset status distribution
+-  Maintenance status, including overdue and upcoming servicing
 -  Location summaries
 
 Good summaries help a user identify what needs attention, where equipment is concentrated, and whether the database reflects real operational conditions. The reporting function is evolving and will be expanded in future Asset Curator versions. 
@@ -194,11 +194,11 @@ Good summaries help a user identify what needs attention, where equipment is con
 Settings is where the user configures app behaviour and maintains the supporting structures around the database.
 
 The Settings area currently includes:
-•  Upgrade access
-•  Label format selection, including printer paper or label size
-•  Tag management tools
-•  Location management tools
-•  Database synchronisation tools, including creating or linking Local and Master databases
+-  Upgrade access
+-  Label format selection, including printer paper or label size
+-  Tag management tools
+-  Location management tools
+-  Database synchronisation tools, including creating or linking Local and Master databases
 
 
 ## 12. **Free vs Paid Features**
@@ -206,15 +206,14 @@ The Settings area currently includes:
 Asset Curator is structured so that users can begin with the core functions and then move to paid tiers if they need more scale or more advanced capability.
 
 **Free version**
-•  Limited number of assets
-•  Core asset management functions
-•  Dashboard access
-
+-  Limited number of assets
+-  Core asset management functions
+-  Dashboard access
 **Paid versions**
-•  Unlimited assets
-•  Synchronisation functions
-•  Advanced reporting (Advanced tier)
-•  Maintenance management (Pro tier)
+-  Unlimited assets
+-  Synchronisation functions
+-  Advanced reporting (Advanced tier)
+-  Maintenance management (Pro tier)
 
 This approach is designed to allow users to trial the app and determine whether it fits their workflow before committing to the broader feature set.
 
@@ -222,10 +221,10 @@ This approach is designed to allow users to trial the app and determine whether 
 ## 13. **Troubleshooting**
 
 If issues occur, start with the simple checks first. Many problems in asset systems come from configuration, permissions, or database selection rather than from the asset record itself.
-•  Restart the app.
-•  Check that camera and storage-related permissions are enabled where needed.
-•  If using shared mode, confirm that the correct database has been selected.
-•  If labels or scanning are involved, confirm that the correct asset record exists and that the QR code is readable.
+-  Restart the app.
+-  Check that camera and storage-related permissions are enabled where needed.
+-  If using shared mode, confirm that the correct database has been selected.
+-  If labels or scanning are involved, confirm that the correct asset record exists and that the QR code is readable.
 
 For persistent issues, contact support. When reporting a problem, it helps to include what action was being performed, whether the issue occurred in Local or synchronised use, and whether the problem affects one asset or the whole app.
 
